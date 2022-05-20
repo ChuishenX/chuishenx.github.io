@@ -4,6 +4,27 @@
   
     
     <entry>
+      <title>摇人机2007</title>
+      <link href="/2022/05/15/GUIedRandom2/"/>
+      <url>/2022/05/15/GUIedRandom2/</url>
+      
+        <content type="html"><![CDATA[<div class="story post-story"><h2 id="一、前言与废话"><a href="#一、前言与废话" class="headerlink" title="一、前言与废话"></a>一、前言与废话</h2><p>书接<a href=‘https://chuishen.cf/2022/05/14/GUIedRandom/’>上文</a>。这个玩意被我们班的人玩烂了，我突发奇想打算加点功能。</p><p>上次可能没把这个bonus.txt的功能讲清楚，bonus.txt的每一行都会被读取然后被random.sample函数读取。</p><p>然后这次写了一下初始化（防止bonus.txt不存在）和整数数列生成。</p></div><div class="story post-story"><h2 id="二、函数代码"><a href="#二、函数代码" class="headerlink" title="二、函数代码"></a>二、函数代码</h2><h3 id="数列生成器"><a href="#数列生成器" class="headerlink" title="数列生成器"></a>数列生成器</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">generator</span>(<span class="params">self</span>):</span><br><span class="line">    <span class="built_in">min</span> = <span class="built_in">int</span>(self.ui.<span class="built_in">min</span>.toPlainText())</span><br><span class="line">    <span class="built_in">max</span> = <span class="built_in">int</span>(self.ui.<span class="built_in">max</span>.toPlainText())</span><br><span class="line">    array = <span class="built_in">list</span>(<span class="built_in">range</span>(<span class="built_in">min</span>,<span class="built_in">max</span>+<span class="number">1</span>))</span><br><span class="line">    strarr = [<span class="built_in">str</span>(x) <span class="keyword">for</span> x <span class="keyword">in</span> array]</span><br><span class="line">    sth = <span class="string">&quot;\n&quot;</span>.join(strarr)</span><br><span class="line">    <span class="keyword">with</span> <span class="built_in">open</span>(<span class="string">&#x27;bonus.txt&#x27;</span>,<span class="string">&quot;w&quot;</span>) <span class="keyword">as</span> f:</span><br><span class="line">        f.write(sth)</span><br></pre></td></tr></table></figure><h3 id="比数列生成器更水的初始化，但是很有必要"><a href="#比数列生成器更水的初始化，但是很有必要" class="headerlink" title="比数列生成器更水的初始化，但是很有必要"></a>比数列生成器更水的初始化，但是很有必要</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">first</span>(<span class="params">self</span>):</span><br><span class="line">    f = <span class="built_in">open</span>(<span class="string">&#x27;bonus.txt&#x27;</span>, <span class="string">&#x27;x&#x27;</span>)</span><br><span class="line">    f.close()</span><br><span class="line"><span class="comment"># 没有这个初始化会出现chmod 777都拯救不了的BUG，</span></span><br><span class="line"><span class="comment"># 如 [WinError 5]</span></span><br><span class="line"><span class="comment"># 懂的大佬可以来说一下原因吗？</span></span><br><span class="line"><span class="comment"># 很不理解为什么老是会出现文件的权限错误</span></span><br></pre></td></tr></table></figure></div><div class="story post-story"><h2 id="三、末语"><a href="#三、末语" class="headerlink" title="三、末语"></a>三、末语</h2><p>这个项目的第二个版本的名字——摇人机2007其实是源于它的图标颇具Office 2007&#x2F;Windows 7的风格。</p><p>PySide6的运行速度还是很慢……让人伤脑筋。难道要我去学C#吗……</p><p>土土收到这个更新之后很快就开始了测试，不知道结果如何，目前来看，应该没有几个大bug。</p><p>话说为什么我要给这么垃圾的程序更新，而不是之前说过要写的视频转换器……恐怕是因为我很懒吧。</p></div>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Python </tag>
+            
+            <tag> 编程 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>我对于交往的看法</title>
       <link href="/2022/05/15/SameandSane/"/>
       <url>/2022/05/15/SameandSane/</url>
