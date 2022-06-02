@@ -95,7 +95,7 @@ summary {
   display: -moz-box /* OLD - Firefox 19- (buggy but mostly works) */;
   display: block;
 }
-article:not(#comments) {
+article {
   overflow: hidden;
 }
 abbr[title] {
@@ -1634,7 +1634,7 @@ svg.loading {
 #l_main .post .article-meta .new-meta-box .new-meta-item i {
   display: -webkit-box /* OLD - iOS 6-, Safari 3.1-6 */;
   display: -moz-box /* OLD - Firefox 19- (buggy but mostly works) */;
-  display: inline;
+  display: inline-block;
 }
 #l_main .post .article-meta .new-meta-box .new-meta-item i {
   margin-right: 4px;
