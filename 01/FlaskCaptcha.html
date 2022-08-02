@@ -5,8 +5,8 @@
   <meta name="Volantis" content="5.3.2">
   <meta charset="utf-8">
   <!-- SEO相关 -->
-  <meta name="robots" content="noindex,follow">
-  <link rel="canonical" href="https://chuishen.cf/tags/摄影/"/>
+  
+  <link rel="canonical" href="https://chuishen.cf/01/flaskcaptcha.html"/>
   <!-- 渲染优化 -->
     <meta http-equiv='x-dns-prefetch-control' content='on' />
       <link rel='dns-prefetch' href='https://npm.elemecdn.com'>
@@ -39,19 +39,22 @@
   <!-- feed -->
       <link rel="alternate" href="/atom.xml" title="吹神小站" type="application/atom+xml">
   <!-- 页面元数据 -->
-  <title>标签：摄影 - 吹神小站</title>
-  <meta name="keywords" content="吹神求杀,吹神,吹水,技术,哲学,Chuishen,Saisen,3260311727,3260311727@qq.com,Python,人生,交友,划水,东方Project,车万,个人博客,东方厨,Blogger,左人,神秘主义,朴素唯物主义,怀旧">
+  <title>利用Flask和Captcha制作简单的验证码生成器 - 吹神小站</title>
+  <meta name="keywords" content="Python,编程,吹神求杀,吹神,吹水,技术,哲学,Chuishen,Saisen,3260311727,3260311727@qq.com,Python,人生,交友,划水,东方Project,车万,个人博客,东方厨,Blogger,左人,神秘主义,朴素唯物主义,怀旧">
   <meta desc name="description" content="一个人的站点，一个人的家。 - 吹神求杀 - 吹神小站">
   
-<meta property="og:type" content="website">
-<meta property="og:title" content="吹神小站">
-<meta property="og:url" content="https://chuishen.cf/tags/%E6%91%84%E5%BD%B1/index.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="利用Flask和Captcha制作简单的验证码生成器">
+<meta property="og:url" content="https://chuishen.cf/01/FlaskCaptcha.html">
 <meta property="og:site_name" content="吹神小站">
-<meta property="og:description" content="一个人的站点，一个人的家。">
+<meta property="og:description" content="一、前言与废话多年之前，我曾经给土土发过一个神奇的本地验证码生成器。当时我有一个习惯，写什么都要加个GUI，但是因为我想想觉得验证码生成器没必要有GUI，所以就没写。但是我写了一个叫BabyMode的函数，这个函数其实很简单，就是在Module无法导入的时候把所有模块全都下载安装一遍（用pip）。这个函数后来成为了我们俩之间的梗。 土土后来写了一个Flask实现的验证码生成器，我觉得自己很菜，连F">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://unpkg.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png">
+<meta property="article:published_time" content="2022-05-14T01:50:34.000Z">
+<meta property="article:modified_time" content="2022-05-14T12:13:04.126Z">
 <meta property="article:author" content="吹神求杀">
-<meta property="article:tag" content="吹神求杀,吹神,吹水,技术,哲学,Chuishen,Saisen,3260311727,3260311727@qq.com,Python,人生,交友,划水,东方Project,车万,个人博客,东方厨,Blogger,左人,神秘主义,朴素唯物主义,怀旧">
+<meta property="article:tag" content="Python">
+<meta property="article:tag" content="编程">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://unpkg.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png">
   <style>
@@ -2403,7 +2406,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   
     
       <!-- see: /layout/_partial/scripts/_ctrl/coverCtrl.ejs -->
-      <div id="half" class='cover-wrapper  dock' style="display: ;">
+      <div id="half" class='cover-wrapper post dock' style="display: ;">
         
   <div id="parallax-window"></div>
 
@@ -2435,25 +2438,9 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       <div id="safearea">
         <div class="body-wrapper">
           
-
 <div id="l_main" class=''>
-  
-    
-      
-  <section class="post-list">
-    
-      
-        
-          
-        
-      
-    
-    
-      
-        
-          <div class='post-wrapper'>
-            <div class="post post-v3 white-box reveal shadow floatable blur"  itemscope itemtype="http://schema.org/Article" >
-  <link itemprop="mainEntityOfPage" href="https://chuishen.cf/01/The-Grimoire-of-Chuishen-2022%E6%91%84%E5%BD%B1%E9%9B%86.html">
+  <article itemscope itemtype="http://schema.org/Article" class="article post white-box reveal md shadow floatable blur article-type-post" id="post" itemscope itemprop="blogPost">
+  <link itemprop="mainEntityOfPage" href="https://chuishen.cf/01/FlaskCaptcha.html">
   <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
     <meta itemprop="name" content="吹神小站">
   </span>
@@ -2462,70 +2449,247 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     <meta itemprop="description" content="一个人的站点，一个人的家。">
   </span>
   
-  
+
+
   
     <span hidden>
       <meta itemprop="image" content="https://unpkg.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png">
     </span>
   
-  
+  <div class="article-meta" id="top">
     
-    <h2 class="article-title"  itemprop="name headline">
-      <a href="/01/The-Grimoire-of-Chuishen-2022%E6%91%84%E5%BD%B1%E9%9B%86.html"  itemprop="url">
-        The Grimoire of Chuishen ~ 2022摄影集·渝川
-      </a>
-    </h2>
-  
-  <div class='md article-desc' itemprop="articleBody">
     
+    
+      <h1 class="title" itemprop="name headline">
+        利用Flask和Captcha制作简单的验证码生成器
+      </h1>
+      <div class='new-meta-box'>
+        
+          
+            
+<div class='new-meta-item author' itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <a itemprop="url" class='author' href="/" rel="nofollow">
+    <img itemprop="image" src="https://www.z4a.net/images/2022/05/14/headimg_dl.jpg" class="lazyload" data-srcset="https://www.z4a.net/images/2022/05/14/headimg_dl.jpg" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+    <p itemprop="name">吹神求杀</p>
+  </a>
+</div>
+
+          
+        
+          
+            
+
+          
+        
+          
+            <div class="new-meta-item date" itemprop="dateCreated datePublished" datetime="2022-05-14T09:50:34+08:00">
+  <a class='notlink'>
+    <i class="fa-solid fa-calendar-alt fa-fw" aria-hidden="true"></i>
+    <p>发布于：2022年5月14日</p>
+  </a>
+</div>
+
+          
+        
+          
+            
+
+
+<div class="new-meta-item browse">
+  <a class='notlink'>
+    <p>
+      <i class="fa-solid fa-eye fa-fw" aria-hidden="true"></i>
       
-        一、前言我的这个摄影集是我去318国道自驾游时拍摄的，对应的游记应该会在8月出来，游记其中的一篇或两篇会与《白银树之恋》系列的连续性直接相关。
-顺带一提《白银树之恋》系列是有连续性的，并且下一部应该会在这周或下周写出来。
-318国道的一游对我的影响很大，我切实感受到了所谓「三分之二的受苦人」是什么。
-二、渝川
-倾泻落雨的山城
-
-映像的黄金轨道
-
-风吹过暗色回廊
-
-彩云化水墨渲染
-
-汹涌而不复...
+      <span id="busuanzi_value_page_pv"><i class="fa-solid fa-loader fa-spin fa-fw" aria-hidden="true"></i></span>
       
+      <span>次浏览</span>
+    </p>
+  </a>
+</div>
+
+
+          
+        
+        <!-- Custom Files topMeta begin-->
+        
+        <!-- Custom Files topMeta end-->
+      </div>
     
   </div>
+
+
+  <div id="layoutHelper-page-plugins"></div>
+  <div id="post-body" itemprop="articleBody">
+    <div class="story post-story"><h2 id="一、前言与废话"><a href="#一、前言与废话" class="headerlink" title="一、前言与废话"></a>一、前言与废话</h2><p>多年之前，我曾经给土土发过一个神奇的本地验证码生成器。当时我有一个习惯，写什么都要加个GUI，但是因为我想想觉得验证码生成器没必要有GUI，所以就没写。但是我写了一个叫BabyMode的函数，这个函数其实很简单，就是在Module无法导入的时候把所有模块全都下载安装一遍（用pip）。这个函数后来成为了我们俩之间的梗。</p>
+<p>土土后来写了一个Flask实现的验证码生成器，我觉得自己很菜，连Flask都不会还学个啥Python，所以我当天就写出了验证码生成器（话说这样不算内卷吧），还学会了很多东西，果然竞争的存在是提高自己学习能力的必要条件。</p>
+</div><div class="story post-story"><h2 id="二、代码"><a href="#二、代码" class="headerlink" title="二、代码"></a>二、代码</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> captcha.image <span class="keyword">import</span> ImageCaptcha</span><br><span class="line"><span class="keyword">from</span> flask <span class="keyword">import</span> Flask, render_template, request</span><br><span class="line"><span class="keyword">import</span> string</span><br><span class="line"><span class="keyword">import</span> random</span><br><span class="line"></span><br><span class="line">app = Flask(__name__)</span><br><span class="line">imgsrc = <span class="string">&#x27;&lt;img src=&quot;https://www.z4a.net/images/2022/05/03/%s.png&quot; loading=&quot;eager&quot; border=&quot;0&quot;&gt;&#x27;</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">generator</span>(<span class="params">name=<span class="string">&quot;code.png&quot;</span></span>):<span class="comment">#ImageCaptcha库实现的验证码生成，之前和土土用的是我自己写的算法，回头看看不堪入目</span></span><br><span class="line">    token = string.digits + string.ascii_letters</span><br><span class="line">    cap = random.sample(token,<span class="number">8</span>)</span><br><span class="line">    token_str = <span class="string">&#x27;&#x27;</span>.join(cap)</span><br><span class="line">    img = ImageCaptcha(width=<span class="number">400</span>,height=<span class="number">150</span>)</span><br><span class="line">    image = img.generate_image(token_str)</span><br><span class="line">    image.save(name)</span><br><span class="line">    <span class="keyword">return</span> token_str</span><br><span class="line"></span><br><span class="line"><span class="meta">@app.route(<span class="params"><span class="string">&#x27;/&#x27;</span>, methods=[<span class="string">&#x27;GET&#x27;</span>,<span class="string">&#x27;POST&#x27;</span>]</span>)</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">index</span>():</span><br><span class="line">  	<span class="comment">#index.html，分GET和POST，我把输入验证码和验证码正确错误的返回坐在一起了，debug的时候只需要重新进入网页就可以重新开始测试</span></span><br><span class="line">    <span class="keyword">global</span> real_str</span><br><span class="line">    <span class="keyword">if</span> request.method == <span class="string">&#x27;POST&#x27;</span>:</span><br><span class="line">        result = request.form</span><br><span class="line">        r = result.get(<span class="string">&#x27;yanzheng&#x27;</span>).lower() == real_str.lower()</span><br><span class="line">        <span class="keyword">if</span> r:</span><br><span class="line">            <span class="keyword">return</span> imgsrc % <span class="string">&#x27;183127ad86d33bc4a.md&#x27;</span></span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            <span class="keyword">return</span> imgsrc % <span class="string">&#x27;2731445bae82f42e5&#x27;</span></span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        <span class="keyword">with</span> <span class="built_in">open</span>(<span class="string">&quot;index.html&quot;</span>) <span class="keyword">as</span> f:</span><br><span class="line">            content = f.read()</span><br><span class="line">        <span class="keyword">return</span> content</span><br><span class="line"></span><br><span class="line"><span class="meta">@app.route(<span class="params"><span class="string">&#x27;/code.png&#x27;</span></span>)</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">view</span>():<span class="comment">#显示code.png，其实这个函数写的很烂，会的都知道可以怎么写来提升代码整体质量</span></span><br><span class="line">    <span class="keyword">global</span> real_str</span><br><span class="line">    real_str = generator()</span><br><span class="line">    <span class="keyword">with</span> <span class="built_in">open</span>(<span class="string">&#x27;code.png&#x27;</span>, <span class="string">&#x27;rb&#x27;</span>) <span class="keyword">as</span> f:</span><br><span class="line">        content = f.read()</span><br><span class="line">    <span class="keyword">return</span> content</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&#x27;__main__&#x27;</span>:</span><br><span class="line">    app.run(host=<span class="string">&#x27;127.0.0.1&#x27;</span>,port=<span class="string">&#x27;2333&#x27;</span>) <span class="comment">#启动服务器</span></span><br></pre></td></tr></table></figure>
+
+</div><div class="story post-story"><h2 id="三、使用方法"><a href="#三、使用方法" class="headerlink" title="三、使用方法"></a>三、使用方法</h2><p>打开程序，打开浏览器，输入localhost:2333。</p>
+<p>或者你是一个聪明人，你可以从代码或者注释中自己找到该干嘛。</p>
+<p>如果是大佬的话，那我只能说，这篇文章对您几乎毫无营养，如果您不喜欢这种风格的代码分享，请慎重考虑要不要继续浏览本博客的其他内容。</p>
+
+</div>
+  </div>
   
-    <div class='meta-v3' line_style='solid'>
-      <div>
-        
-        <time itemprop="dateCreated datePublished" datetime="2022-08-01T10:31:38+08:00">2022-08-01</time>
-        
-      </div>
+  
+    
+    <div class='footer'>
       
-        <div>
-          <a class='readmore' href='/01/The-Grimoire-of-Chuishen-2022%E6%91%84%E5%BD%B1%E9%9B%86.html' itemprop="url">
-            阅读全文
-          </a>
+      
+      
+        <div class='copyright'>
+          <blockquote>
+            
+              
+                <p>博客内容遵循 署名-非商业性使用-相同方式共享 4.0 国际 (CC BY-NC-SA 4.0) 协议</p>
+
+              
+            
+              
+                <p>本文永久链接是：<a href=https://chuishen.cf/01/FlaskCaptcha.html>https://chuishen.cf/01/FlaskCaptcha.html</a></p>
+              
+            
+          </blockquote>
         </div>
+      
       
     </div>
   
+  
+    
 
+
+  <div class='article-meta' id="bottom">
+    <div class='new-meta-box'>
+      
+        
+          <div class="new-meta-item date" itemprop="dateModified" datetime="2022-05-14T20:13:04+08:00">
+  <a class='notlink'>
+    <i class="fa-solid fa-edit fa-fw" aria-hidden="true"></i>
+    <p>更新于：2022年5月14日</p>
+  </a>
 </div>
 
-          </div>
         
       
-    
-  </section>
+        
+          
   
+  <div class="new-meta-item meta-tags"><a class="tag" href="/tags/Python/" rel="nofollow"><i class="fa-solid fa-hashtag fa-fw" aria-hidden="true"></i><p>Python</p></a></div> <div class="new-meta-item meta-tags"><a class="tag" href="/tags/%E7%BC%96%E7%A8%8B/" rel="nofollow"><i class="fa-solid fa-hashtag fa-fw" aria-hidden="true"></i><p>编程</p></a></div>
+  <span hidden itemprop="keywords">Python 编程</span>
+
+
+        
+      
+        
+          
+  <div class="new-meta-item share -mob-share-list">
+  <div class="-mob-share-list share-body">
     
+      
+        <a class="-mob-share-qq" title="" rel="external nofollow noopener noreferrer noopener"
+          
+          target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://chuishen.cf/01/FlaskCaptcha.html&title=利用Flask和Captcha制作简单的验证码生成器 - 吹神小站&summary="
+          
+          >
+          
+            <img src="https://unpkg.com/volantis-static@0.0.1649552113628/media/org.volantis/logo/128/qq.png" class="lazyload" data-srcset="https://unpkg.com/volantis-static@0.0.1649552113628/media/org.volantis/logo/128/qq.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+          
+        </a>
+      
+    
+      
+        <a class="-mob-share-qzone" title="" rel="external nofollow noopener noreferrer noopener"
+          
+          target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://chuishen.cf/01/FlaskCaptcha.html&title=利用Flask和Captcha制作简单的验证码生成器 - 吹神小站&summary="
+          
+          >
+          
+            <img src="https://unpkg.com/volantis-static@0.0.1649552113628/media/org.volantis/logo/128/qzone.png" class="lazyload" data-srcset="https://unpkg.com/volantis-static@0.0.1649552113628/media/org.volantis/logo/128/qzone.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+          
+        </a>
+      
+    
+      
+        <a class="-mob-share-weibo" title="" rel="external nofollow noopener noreferrer noopener"
+          
+          target="_blank" href="http://service.weibo.com/share/share.php?url=https://chuishen.cf/01/FlaskCaptcha.html&title=利用Flask和Captcha制作简单的验证码生成器 - 吹神小站&summary="
+          
+          >
+          
+            <img src="https://unpkg.com/volantis-static@0.0.1649552113628/media/org.volantis/logo/128/weibo.png" class="lazyload" data-srcset="https://unpkg.com/volantis-static@0.0.1649552113628/media/org.volantis/logo/128/weibo.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+          
+        </a>
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+
+
+        
+      
+    </div>
+    <!-- Custom Files bottomMeta begin -->
+    
+    <!-- Custom Files bottomMeta end -->
+  </div>
+
+
+  
+  
+
+  
+    <div class="prev-next">
+      
+        <a class='prev' href='/01/FlaskAudio.html'>
+          <p class='title'><i class="fa-solid fa-chevron-left" aria-hidden="true"></i>利用Flask和ffmpeg制作简单的音乐转换器</p>
+          <p class='content'>一、前言与废话我跟土土聊了一会天，然后我说：“要不我们俩写个音频转换器，用Python+Flask？”
+“没问题。”
+下午，我写完了。
+土土懵了（说好一起写的呢Q w Q）。
+二、代码（pyth...</p>
+        </a>
+      
+      
+        <a class='next' href='/01/GUIedRandom.html'>
+          <p class='title'>利用PySide2和random模块制作简单的摇人机<i class="fa-solid fa-chevron-right" aria-hidden="true"></i></p>
+          <p class='content'>一、前言与废话这次是我在学校里写的，所以没有我和土土的废话。
+我感觉我透过镜子看事物，仿佛一切都是那么的真实，但是却触摸不到事情的本质，因此，这镜子使我目盲。
+直到我发现这镜子是我眼睛中的晶状体...</p>
+        </a>
+      
+    </div>
+  
+  <!-- Custom Files postEnd begin-->
+  
+  <!-- Custom Files postEnd end-->
+</article>
+
+
   
 
 
+  <article class="post white-box shadow floatable blur" id="comments">
+    <span hidden>
+      <meta itemprop="discussionUrl" content="/01/FlaskCaptcha.html#comments">
+    </span>
+    <p ct><i class='fa-solid fa-comments'></i> 评论</p>
     
-  
+
+    <div id="layoutHelper-comments"></div>
+
+  </article>
+
+
+
+
+
+
 </div>
 <aside id='l_side' itemscope itemtype="http://schema.org/WPSideBar">
   
@@ -2533,103 +2697,34 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     
     
 
-<section class="widget blogger shadow floatable blur desktop mobile pjax">
-  <div class='content'>
-    
-      
-        <a class='avatar flat-box rectangle' href='/about/'>
-          <img no-lazy src='https://www.z4a.net/images/2022/05/14/headimg_dl.jpg'/>
-        </a>
-      
-    
-    
-      <div class='text'>
-        
-        
-        
-          <p><span id="jinrishici-sentence">吹神小站</span></p>
-          <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
-        
-      </div>
-    
-    
-      <div class="social-wrapper">
-        
-          
-            <a href="/atom.xml"
-              class="social fa-solid fa-rss flat-btn"
-              target="_blank"
-              rel="external nofollow noopener noreferrer">
-              
-            </a>
-          
-        
-          
-            <a href="mailto:me@xxx.com"
-              class="social fa-solid fa-envelope flat-btn"
-              target="_blank"
-              rel="external nofollow noopener noreferrer">
-              
-            </a>
-          
-        
-          
-            <a href="https://github.com/volantis-x/"
-              class="social fab fa-github flat-btn"
-              target="_blank"
-              rel="external nofollow noopener noreferrer">
-              
-            </a>
-          
-        
-          
-            <a href="/"
-              class="social fa-solid fa-headphones-alt flat-btn"
-              target="_blank"
-              rel="external nofollow noopener noreferrer">
-              
-            </a>
-          
-        
-      </div>
-    
-  </div>
-</section>
 
-  
 
-  
-    
-    
-
-  
-
-  
-    
-    
-  
-
-  <section class="widget tagcloud shadow floatable blur desktop mobile pjax">
+  <section class="widget toc-wrapper shadow floatable blur desktop mobile pjax" id="toc-div" >
     
   <header>
     
-      <a href='/blog/tags/'><i class="fa-solid fa-tags fa-fw" aria-hidden="true"></i><span class='name'>热门标签</span></a>
+      <i class="fa-solid fa-list fa-fw" aria-hidden="true"></i><span class='name'>本文目录</span>
     
   </header>
 
 
     <div class='content'>
-      <a href="/tags/Python/" style="font-size: 22px; color: #636363">Python</a> <a href="/tags/%E5%86%99%E4%BD%9C/" style="font-size: 14px; color: #999">写作</a> <a href="/tags/%E6%91%84%E5%BD%B1/" style="font-size: 14px; color: #999">摄影</a> <a href="/tags/%E6%96%87%E5%AD%A6/" style="font-size: 24px; color: #555">文学</a> <a href="/tags/%E6%97%A5%E8%AE%B0%E5%85%AB%E9%9B%86/" style="font-size: 20px; color: #707070">日记八集</a> <a href="/tags/%E6%B8%B8%E8%AE%B0/" style="font-size: 14px; color: #999">游记</a> <a href="/tags/%E7%89%B9%E6%AE%8A/" style="font-size: 16px; color: #8b8b8b">特殊</a> <a href="/tags/%E7%99%BD%E9%93%B6%E6%A0%91%E4%B9%8B%E6%81%8B/" style="font-size: 16px; color: #8b8b8b">白银树之恋</a> <a href="/tags/%E7%BC%96%E7%A8%8B/" style="font-size: 22px; color: #636363">编程</a> <a href="/tags/%E9%97%B2%E8%81%8A/" style="font-size: 18px; color: #7e7e7e">闲聊</a>
+        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%80%E3%80%81%E5%89%8D%E8%A8%80%E4%B8%8E%E5%BA%9F%E8%AF%9D"><span class="toc-text">一、前言与废话</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%8C%E3%80%81%E4%BB%A3%E7%A0%81"><span class="toc-text">二、代码</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%89%E3%80%81%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95"><span class="toc-text">三、使用方法</span></a></li></ol>
     </div>
   </section>
-
-
-  
 
   
 
 
 <!-- 没有 pjax 占位会报错 万恶的 pjax -->
+
+  <div class="pjax">
+    <!-- pjax占位 -->
+  </div>
+
+  <div class="pjax">
+    <!-- pjax占位 -->
+  </div>
 
   <div class="pjax">
     <!-- pjax占位 -->
@@ -2658,13 +2753,14 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 </aside>
 
 
+
           <!--此文件用来存放一些不方便取值的变量-->
 <!--思路大概是将值藏到重加载的区域内-->
 
 <pjax>
 <script>
   window.pdata={}
-  pdata.ispage=false;
+  pdata.ispage=true;
   pdata.commentPath="";
   pdata.commentPlaceholder="";
   pdata.commentConfig={};
@@ -3729,7 +3825,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
 
 
-  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"吹神小站","url":"https://chuishen.cf/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"吹神求杀","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://chuishen.cf/","sameAs":["https://github.com/volantis-x"],"description":"一个人的站点，一个人的家。"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://chuishen.cf/","name":"吹神小站"}},{"@type":"ListItem","position":2,"item":{"@id":"https://chuishen.cf/tags/摄影/","name":"摄影"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"吹神小站","url":"https://chuishen.cf/","keywords":"吹神求杀,吹神,吹水,技术,哲学,Chuishen,Saisen,3260311727,3260311727@qq.com,Python,人生,交友,划水,东方Project,车万,个人博客,东方厨,Blogger,左人,神秘主义,朴素唯物主义,怀旧","description":"一个人的站点，一个人的家。","author":{"@type":"Person","name":"吹神求杀","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://chuishen.cf/","description":"一个人的站点，一个人的家。"},"publisher":{"@type":"Organization","name":"吹神小站","url":"https://chuishen.cf/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"https://chuishen.cf?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","description":"一个人的站点，一个人的家。","inLanguage":"zh-CN","mainEntityOfPage":{"@type":"WebPage"},"author":{"@type":"Person","name":"吹神求杀","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://chuishen.cf/"},"publisher":{"@type":"Organization","name":"吹神小站","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"wordCount":0,"image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
+  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"吹神小站","url":"https://chuishen.cf/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"吹神求杀","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://chuishen.cf/","sameAs":["https://github.com/volantis-x"],"description":"一个人的站点，一个人的家。"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://chuishen.cf/","name":"吹神小站"}},{"@type":"ListItem","position":3,"item":{"@id":"https://chuishen.cf/01/FlaskCaptcha.html","name":"利用Flask和Captcha制作简单的验证码生成器"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"吹神小站","url":"https://chuishen.cf/","keywords":"吹神求杀,吹神,吹水,技术,哲学,Chuishen,Saisen,3260311727,3260311727@qq.com,Python,人生,交友,划水,东方Project,车万,个人博客,东方厨,Blogger,左人,神秘主义,朴素唯物主义,怀旧","description":"一个人的站点，一个人的家。","author":{"@type":"Person","name":"吹神求杀","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://chuishen.cf/","description":"一个人的站点，一个人的家。"},"publisher":{"@type":"Organization","name":"吹神小站","url":"https://chuishen.cf/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"https://chuishen.cf?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","headline":"利用Flask和Captcha制作简单的验证码生成器","description":"一个人的站点，一个人的家。","inLanguage":"zh-CN","mainEntityOfPage":{"@type":"WebPage","@id":"https://chuishen.cf/01/FlaskCaptcha.html"},"author":{"@type":"Person","name":"吹神求杀","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://chuishen.cf/"},"publisher":{"@type":"Organization","name":"吹神小站","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"https://chuishen.cf/01/FlaskCaptcha.html","wordCount":0,"datePublished":"2022-05-14T01:50:34.000Z","dateModified":"2022-05-14T12:13:04.126Z","keywords":"Python,编程","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
 
 
 
