@@ -7136,3 +7136,16 @@ ul.list-v.rightmenu li.music .nav.volume .aplayer-volume-bar .aplayer-volume {
   height: 100%;
   width: 100%;
 }
+.heimu {
+  background-color: var(--hty-text-color);
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -khtml-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -o-transition: 0.2s;
+  -ms-transition: 0.2s;
+}
+.heimu:hover {
+  cursor: pointer;
+  background-color: transparent;
+}

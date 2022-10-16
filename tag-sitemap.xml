@@ -3,15 +3,36 @@
 
 
     <url>
+        <loc>https://chuishen.cf/tags/%E8%B0%83%E7%A0%94/</loc>
+        <lastmod>2022-10-16T03:33:33.165Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://chuishen.cf/tags/%E7%89%B9%E6%AE%8A/</loc>
+        <lastmod>2022-10-16T03:33:33.165Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://chuishen.cf/tags/%E9%97%B2%E8%81%8A/</loc>
+        <lastmod>2022-10-16T03:33:33.165Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://chuishen.cf/tags/%E6%B8%B8%E8%AE%B0/</loc>
-        <lastmod>2022-10-03T01:14:30.399Z</lastmod>
+        <lastmod>2022-10-04T05:40:52.877Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://chuishen.cf/tags/%E6%96%87%E5%AD%A6/</loc>
-        <lastmod>2022-10-03T01:14:30.399Z</lastmod>
+        <lastmod>2022-10-04T05:40:52.877Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
@@ -68,20 +89,6 @@
     <url>
         <loc>https://chuishen.cf/tags/%E6%91%84%E5%BD%B1/</loc>
         <lastmod>2022-08-01T11:32:37.954Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://chuishen.cf/tags/%E7%89%B9%E6%AE%8A/</loc>
-        <lastmod>2022-07-31T14:11:41.095Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://chuishen.cf/tags/%E9%97%B2%E8%81%8A/</loc>
-        <lastmod>2022-07-31T14:11:41.095Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
