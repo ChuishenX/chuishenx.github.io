@@ -9,16 +9,24 @@
 
 
     <url>
-        <loc>https://chuishen.cf/01/TheKnownUnknown.html</loc>
-        <lastmod>2023-02-19T08:12:51.953Z</lastmod>
+        <loc>https://chuishen.cf/01/MissingPower.html</loc>
+        <lastmod>2023-03-12T07:50:42.114Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
     </url>
 
     <url>
-        <loc>https://chuishen.cf/01/MissingPower.html</loc>
-        <lastmod>2023-02-19T08:07:47.887Z</lastmod>
+        <loc>https://chuishen.cf/01/TheKnownUnknown.html</loc>
+        <lastmod>2023-03-12T07:48:12.029Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://chuishen.cf/01/FakeLie.html</loc>
+        <lastmod>2023-03-12T07:46:34.932Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
