@@ -2,7 +2,7 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <url>
-        <loc>https://chuishen.cf/</loc>
+        <loc>https://chuishen.xyz/</loc>
         <changefreq>daily</changefreq>
         <priority>1</priority>
     </url>
@@ -10,7 +10,7 @@
     
     
     <url>
-        <loc>https://chuishen.cf/friends/</loc>
+        <loc>https://chuishen.xyz/friends/</loc>
         <lastmod>2022-07-28T09:05:36.082Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
@@ -19,7 +19,7 @@
     
     
     <url>
-        <loc>https://chuishen.cf/categories/</loc>
+        <loc>https://chuishen.xyz/categories/</loc>
         <lastmod>2022-05-28T14:44:09.193Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
@@ -28,7 +28,7 @@
     
     
     <url>
-        <loc>https://chuishen.cf/about/</loc>
+        <loc>https://chuishen.xyz/about/</loc>
         <lastmod>2022-05-14T02:35:24.083Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
@@ -37,7 +37,7 @@
     
     
     <url>
-        <loc>https://chuishen.cf/404.html</loc>
+        <loc>https://chuishen.xyz/404.html</loc>
         <lastmod>2022-05-14T01:35:23.165Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
@@ -46,7 +46,7 @@
     
     
     <url>
-        <loc>https://chuishen.cf/page/</loc>
+        <loc>https://chuishen.xyz/page/</loc>
         <lastmod>2021-12-04T07:59:23.954Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>

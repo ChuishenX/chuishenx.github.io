@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>吹神小站</title>
-  <icon>https://chuishen.cf/icon.png</icon>
+  <icon>https://chuishen.xyz/icon.png</icon>
   <subtitle>心绪如风一样流转，留不下一丝痕迹</subtitle>
-  <link href="https://chuishen.cf/atom.xml" rel="self"/>
+  <link href="https://chuishen.xyz/atom.xml" rel="self"/>
   
-  <link href="https://chuishen.cf/"/>
+  <link href="https://chuishen.xyz/"/>
   <updated>2023-03-14T14:10:38.594Z</updated>
-  <id>https://chuishen.cf/</id>
+  <id>https://chuishen.xyz/</id>
   
   <author>
     <name>吹神求杀</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>通向真相的枝叶</title>
-    <link href="https://chuishen.cf/01/MessUpWithTheTruth.html"/>
-    <id>https://chuishen.cf/01/MessUpWithTheTruth.html</id>
+    <link href="https://chuishen.xyz/01/MessUpWithTheTruth.html"/>
+    <id>https://chuishen.xyz/01/MessUpWithTheTruth.html</id>
     <published>2023-03-14T14:07:58.000Z</published>
     <updated>2023-03-14T14:10:38.594Z</updated>
     
@@ -35,16 +35,16 @@
     
     
     
-    <category term="写作" scheme="https://chuishen.cf/tags/%E5%86%99%E4%BD%9C/"/>
+    <category term="写作" scheme="https://chuishen.xyz/tags/%E5%86%99%E4%BD%9C/"/>
     
-    <category term="白银树之恋" scheme="https://chuishen.cf/tags/%E7%99%BD%E9%93%B6%E6%A0%91%E4%B9%8B%E6%81%8B/"/>
+    <category term="白银树之恋" scheme="https://chuishen.xyz/tags/%E7%99%BD%E9%93%B6%E6%A0%91%E4%B9%8B%E6%81%8B/"/>
     
   </entry>
   
   <entry>
     <title>御伽之国的鬼岛 第三章</title>
-    <link href="https://chuishen.cf/01/FakeLie.html"/>
-    <id>https://chuishen.cf/01/FakeLie.html</id>
+    <link href="https://chuishen.xyz/01/FakeLie.html"/>
+    <id>https://chuishen.xyz/01/FakeLie.html</id>
     <published>2023-03-12T07:26:42.000Z</published>
     <updated>2023-03-12T07:46:34.932Z</updated>
     
@@ -60,16 +60,16 @@
     
     
     
-    <category term="写作" scheme="https://chuishen.cf/tags/%E5%86%99%E4%BD%9C/"/>
+    <category term="写作" scheme="https://chuishen.xyz/tags/%E5%86%99%E4%BD%9C/"/>
     
-    <category term="白银树之恋" scheme="https://chuishen.cf/tags/%E7%99%BD%E9%93%B6%E6%A0%91%E4%B9%8B%E6%81%8B/"/>
+    <category term="白银树之恋" scheme="https://chuishen.xyz/tags/%E7%99%BD%E9%93%B6%E6%A0%91%E4%B9%8B%E6%81%8B/"/>
     
   </entry>
   
   <entry>
     <title>御伽之国的鬼岛 第二章</title>
-    <link href="https://chuishen.cf/01/TheKnownUnknown.html"/>
-    <id>https://chuishen.cf/01/TheKnownUnknown.html</id>
+    <link href="https://chuishen.xyz/01/TheKnownUnknown.html"/>
+    <id>https://chuishen.xyz/01/TheKnownUnknown.html</id>
     <published>2023-02-19T08:10:06.000Z</published>
     <updated>2023-03-12T07:48:12.029Z</updated>
     
@@ -85,16 +85,16 @@
     
     
     
-    <category term="写作" scheme="https://chuishen.cf/tags/%E5%86%99%E4%BD%9C/"/>
+    <category term="写作" scheme="https://chuishen.xyz/tags/%E5%86%99%E4%BD%9C/"/>
     
-    <category term="白银树之恋" scheme="https://chuishen.cf/tags/%E7%99%BD%E9%93%B6%E6%A0%91%E4%B9%8B%E6%81%8B/"/>
+    <category term="白银树之恋" scheme="https://chuishen.xyz/tags/%E7%99%BD%E9%93%B6%E6%A0%91%E4%B9%8B%E6%81%8B/"/>
     
   </entry>
   
   <entry>
     <title>御伽之国的鬼岛 序&amp;第一章</title>
-    <link href="https://chuishen.cf/01/MissingPower.html"/>
-    <id>https://chuishen.cf/01/MissingPower.html</id>
+    <link href="https://chuishen.xyz/01/MissingPower.html"/>
+    <id>https://chuishen.xyz/01/MissingPower.html</id>
     <published>2023-02-19T08:05:21.000Z</published>
     <updated>2023-03-12T07:50:42.114Z</updated>
     
@@ -110,16 +110,16 @@
     
     
     
-    <category term="写作" scheme="https://chuishen.cf/tags/%E5%86%99%E4%BD%9C/"/>
+    <category term="写作" scheme="https://chuishen.xyz/tags/%E5%86%99%E4%BD%9C/"/>
     
-    <category term="白银树之恋" scheme="https://chuishen.cf/tags/%E7%99%BD%E9%93%B6%E6%A0%91%E4%B9%8B%E6%81%8B/"/>
+    <category term="白银树之恋" scheme="https://chuishen.xyz/tags/%E7%99%BD%E9%93%B6%E6%A0%91%E4%B9%8B%E6%81%8B/"/>
     
   </entry>
   
   <entry>
     <title>我对于反诈APP伪造事件的看法与瞎扯</title>
-    <link href="https://chuishen.cf/01/Rubbish.html"/>
-    <id>https://chuishen.cf/01/Rubbish.html</id>
+    <link href="https://chuishen.xyz/01/Rubbish.html"/>
+    <id>https://chuishen.xyz/01/Rubbish.html</id>
     <published>2022-10-23T07:05:20.000Z</published>
     <updated>2022-10-23T07:08:12.016Z</updated>
     
@@ -137,14 +137,14 @@
     
     
     
-    <category term="闲聊" scheme="https://chuishen.cf/tags/%E9%97%B2%E8%81%8A/"/>
+    <category term="闲聊" scheme="https://chuishen.xyz/tags/%E9%97%B2%E8%81%8A/"/>
     
   </entry>
   
   <entry>
     <title>「科学上网」小调研——致那只房间里的大象</title>
-    <link href="https://chuishen.cf/01/ScientificInternet.html"/>
-    <id>https://chuishen.cf/01/ScientificInternet.html</id>
+    <link href="https://chuishen.xyz/01/ScientificInternet.html"/>
+    <id>https://chuishen.xyz/01/ScientificInternet.html</id>
     <published>2022-10-16T00:52:24.000Z</published>
     <updated>2022-10-16T03:35:33.905Z</updated>
     
@@ -163,18 +163,18 @@
     
     
     
-    <category term="闲聊" scheme="https://chuishen.cf/tags/%E9%97%B2%E8%81%8A/"/>
+    <category term="闲聊" scheme="https://chuishen.xyz/tags/%E9%97%B2%E8%81%8A/"/>
     
-    <category term="特殊" scheme="https://chuishen.cf/tags/%E7%89%B9%E6%AE%8A/"/>
+    <category term="特殊" scheme="https://chuishen.xyz/tags/%E7%89%B9%E6%AE%8A/"/>
     
-    <category term="调研" scheme="https://chuishen.cf/tags/%E8%B0%83%E7%A0%94/"/>
+    <category term="调研" scheme="https://chuishen.xyz/tags/%E8%B0%83%E7%A0%94/"/>
     
   </entry>
   
   <entry>
     <title>游记2-山城是一片流动的火</title>
-    <link href="https://chuishen.cf/01/%E6%B8%B8%E8%AE%B02-%E5%B1%B1%E5%9F%8E%E6%98%AF%E4%B8%80%E7%89%87%E6%B5%81%E5%8A%A8%E7%9A%84%E7%81%AB.html"/>
-    <id>https://chuishen.cf/01/%E6%B8%B8%E8%AE%B02-%E5%B1%B1%E5%9F%8E%E6%98%AF%E4%B8%80%E7%89%87%E6%B5%81%E5%8A%A8%E7%9A%84%E7%81%AB.html</id>
+    <link href="https://chuishen.xyz/01/%E6%B8%B8%E8%AE%B02-%E5%B1%B1%E5%9F%8E%E6%98%AF%E4%B8%80%E7%89%87%E6%B5%81%E5%8A%A8%E7%9A%84%E7%81%AB.html"/>
+    <id>https://chuishen.xyz/01/%E6%B8%B8%E8%AE%B02-%E5%B1%B1%E5%9F%8E%E6%98%AF%E4%B8%80%E7%89%87%E6%B5%81%E5%8A%A8%E7%9A%84%E7%81%AB.html</id>
     <published>2022-10-04T05:11:42.000Z</published>
     <updated>2022-10-04T05:40:52.877Z</updated>
     
@@ -191,16 +191,16 @@
     
     
     
-    <category term="文学" scheme="https://chuishen.cf/tags/%E6%96%87%E5%AD%A6/"/>
+    <category term="文学" scheme="https://chuishen.xyz/tags/%E6%96%87%E5%AD%A6/"/>
     
-    <category term="游记" scheme="https://chuishen.cf/tags/%E6%B8%B8%E8%AE%B0/"/>
+    <category term="游记" scheme="https://chuishen.xyz/tags/%E6%B8%B8%E8%AE%B0/"/>
     
   </entry>
   
   <entry>
     <title>游记1-黄鹤楼的遗憾</title>
-    <link href="https://chuishen.cf/01/%E6%B8%B8%E8%AE%B01-%E9%BB%84%E9%B9%A4%E6%A5%BC%E7%9A%84%E9%81%97%E6%86%BE.html"/>
-    <id>https://chuishen.cf/01/%E6%B8%B8%E8%AE%B01-%E9%BB%84%E9%B9%A4%E6%A5%BC%E7%9A%84%E9%81%97%E6%86%BE.html</id>
+    <link href="https://chuishen.xyz/01/%E6%B8%B8%E8%AE%B01-%E9%BB%84%E9%B9%A4%E6%A5%BC%E7%9A%84%E9%81%97%E6%86%BE.html"/>
+    <id>https://chuishen.xyz/01/%E6%B8%B8%E8%AE%B01-%E9%BB%84%E9%B9%A4%E6%A5%BC%E7%9A%84%E9%81%97%E6%86%BE.html</id>
     <published>2022-10-02T02:51:45.000Z</published>
     <updated>2022-10-03T01:14:30.399Z</updated>
     
@@ -217,16 +217,16 @@
     
     
     
-    <category term="文学" scheme="https://chuishen.cf/tags/%E6%96%87%E5%AD%A6/"/>
+    <category term="文学" scheme="https://chuishen.xyz/tags/%E6%96%87%E5%AD%A6/"/>
     
-    <category term="游记" scheme="https://chuishen.cf/tags/%E6%B8%B8%E8%AE%B0/"/>
+    <category term="游记" scheme="https://chuishen.xyz/tags/%E6%B8%B8%E8%AE%B0/"/>
     
   </entry>
   
   <entry>
     <title>塑料时代：线性造神术[1]</title>
-    <link href="https://chuishen.cf/01/LinearGod1.html"/>
-    <id>https://chuishen.cf/01/LinearGod1.html</id>
+    <link href="https://chuishen.xyz/01/LinearGod1.html"/>
+    <id>https://chuishen.xyz/01/LinearGod1.html</id>
     <published>2022-09-17T14:03:27.000Z</published>
     <updated>2022-09-17T14:46:01.627Z</updated>
     
@@ -243,16 +243,16 @@
     
     
     
-    <category term="写作" scheme="https://chuishen.cf/tags/%E5%86%99%E4%BD%9C/"/>
+    <category term="写作" scheme="https://chuishen.xyz/tags/%E5%86%99%E4%BD%9C/"/>
     
-    <category term="白银树之恋" scheme="https://chuishen.cf/tags/%E7%99%BD%E9%93%B6%E6%A0%91%E4%B9%8B%E6%81%8B/"/>
+    <category term="白银树之恋" scheme="https://chuishen.xyz/tags/%E7%99%BD%E9%93%B6%E6%A0%91%E4%B9%8B%E6%81%8B/"/>
     
   </entry>
   
   <entry>
     <title>醉月追忆</title>
-    <link href="https://chuishen.cf/01/46years.html"/>
-    <id>https://chuishen.cf/01/46years.html</id>
+    <link href="https://chuishen.xyz/01/46years.html"/>
+    <id>https://chuishen.xyz/01/46years.html</id>
     <published>2022-09-11T13:32:06.000Z</published>
     <updated>2022-09-11T14:03:44.274Z</updated>
     
@@ -268,18 +268,18 @@
     
     
     
-    <category term="写作" scheme="https://chuishen.cf/tags/%E5%86%99%E4%BD%9C/"/>
+    <category term="写作" scheme="https://chuishen.xyz/tags/%E5%86%99%E4%BD%9C/"/>
     
-    <category term="诗" scheme="https://chuishen.cf/tags/%E8%AF%97/"/>
+    <category term="诗" scheme="https://chuishen.xyz/tags/%E8%AF%97/"/>
     
-    <category term="正确的中肯的一针见血的" scheme="https://chuishen.cf/tags/%E6%AD%A3%E7%A1%AE%E7%9A%84%E4%B8%AD%E8%82%AF%E7%9A%84%E4%B8%80%E9%92%88%E8%A7%81%E8%A1%80%E7%9A%84/"/>
+    <category term="正确的中肯的一针见血的" scheme="https://chuishen.xyz/tags/%E6%AD%A3%E7%A1%AE%E7%9A%84%E4%B8%AD%E8%82%AF%E7%9A%84%E4%B8%80%E9%92%88%E8%A7%81%E8%A1%80%E7%9A%84/"/>
     
   </entry>
   
   <entry>
     <title>玄云海的初来乍到</title>
-    <link href="https://chuishen.cf/01/IdeaOfOblivionOcean.html"/>
-    <id>https://chuishen.cf/01/IdeaOfOblivionOcean.html</id>
+    <link href="https://chuishen.xyz/01/IdeaOfOblivionOcean.html"/>
+    <id>https://chuishen.xyz/01/IdeaOfOblivionOcean.html</id>
     <published>2022-09-09T12:46:36.000Z</published>
     <updated>2022-09-09T13:38:32.542Z</updated>
     
@@ -295,14 +295,14 @@
     
     
     
-    <category term="玄云海" scheme="https://chuishen.cf/tags/%E7%8E%84%E4%BA%91%E6%B5%B7/"/>
+    <category term="玄云海" scheme="https://chuishen.xyz/tags/%E7%8E%84%E4%BA%91%E6%B5%B7/"/>
     
   </entry>
   
   <entry>
     <title>寻找深秘——《十三而立》完稿一周年纪念篇</title>
-    <link href="https://chuishen.cf/01/%E5%AF%BB%E6%89%BE%E6%B7%B1%E7%A7%98.html"/>
-    <id>https://chuishen.cf/01/%E5%AF%BB%E6%89%BE%E6%B7%B1%E7%A7%98.html</id>
+    <link href="https://chuishen.xyz/01/%E5%AF%BB%E6%89%BE%E6%B7%B1%E7%A7%98.html"/>
+    <id>https://chuishen.xyz/01/%E5%AF%BB%E6%89%BE%E6%B7%B1%E7%A7%98.html</id>
     <published>2022-08-27T01:50:34.000Z</published>
     <updated>2022-08-28T05:07:38.481Z</updated>
     
@@ -318,14 +318,14 @@
     
     
     
-    <category term="文学" scheme="https://chuishen.cf/tags/%E6%96%87%E5%AD%A6/"/>
+    <category term="文学" scheme="https://chuishen.xyz/tags/%E6%96%87%E5%AD%A6/"/>
     
   </entry>
   
   <entry>
     <title>《狂人日记》——吃人究竟是怎么一回事</title>
-    <link href="https://chuishen.cf/01/Paranoian.html"/>
-    <id>https://chuishen.cf/01/Paranoian.html</id>
+    <link href="https://chuishen.xyz/01/Paranoian.html"/>
+    <id>https://chuishen.xyz/01/Paranoian.html</id>
     <published>2022-08-25T14:05:20.000Z</published>
     <updated>2022-08-25T14:06:31.923Z</updated>
     
@@ -342,18 +342,18 @@
     
     
     
-    <category term="文学" scheme="https://chuishen.cf/tags/%E6%96%87%E5%AD%A6/"/>
+    <category term="文学" scheme="https://chuishen.xyz/tags/%E6%96%87%E5%AD%A6/"/>
     
-    <category term="鉴赏" scheme="https://chuishen.cf/tags/%E9%89%B4%E8%B5%8F/"/>
+    <category term="鉴赏" scheme="https://chuishen.xyz/tags/%E9%89%B4%E8%B5%8F/"/>
     
-    <category term="存货" scheme="https://chuishen.cf/tags/%E5%AD%98%E8%B4%A7/"/>
+    <category term="存货" scheme="https://chuishen.xyz/tags/%E5%AD%98%E8%B4%A7/"/>
     
   </entry>
   
   <entry>
     <title>十三而立（上）</title>
-    <link href="https://chuishen.cf/01/Thirteen.html"/>
-    <id>https://chuishen.cf/01/Thirteen.html</id>
+    <link href="https://chuishen.xyz/01/Thirteen.html"/>
+    <id>https://chuishen.xyz/01/Thirteen.html</id>
     <published>2022-08-23T09:20:41.000Z</published>
     <updated>2022-08-23T09:20:04.095Z</updated>
     
@@ -369,14 +369,14 @@
     
     
     
-    <category term="文学" scheme="https://chuishen.cf/tags/%E6%96%87%E5%AD%A6/"/>
+    <category term="文学" scheme="https://chuishen.xyz/tags/%E6%96%87%E5%AD%A6/"/>
     
   </entry>
   
   <entry>
     <title>黄金时代：失落失眠的黄金之城之夜[2]</title>
-    <link href="https://chuishen.cf/01/%E9%BB%84%E9%87%91%E6%97%B6%E4%BB%A3%EF%BC%9A%E5%A4%B1%E8%90%BD%E5%A4%B1%E7%9C%A0%E7%9A%84%E9%BB%84%E9%87%91%E4%B9%8B%E5%9F%8E%E4%B9%8B%E5%A4%9C-2.html"/>
-    <id>https://chuishen.cf/01/%E9%BB%84%E9%87%91%E6%97%B6%E4%BB%A3%EF%BC%9A%E5%A4%B1%E8%90%BD%E5%A4%B1%E7%9C%A0%E7%9A%84%E9%BB%84%E9%87%91%E4%B9%8B%E5%9F%8E%E4%B9%8B%E5%A4%9C-2.html</id>
+    <link href="https://chuishen.xyz/01/%E9%BB%84%E9%87%91%E6%97%B6%E4%BB%A3%EF%BC%9A%E5%A4%B1%E8%90%BD%E5%A4%B1%E7%9C%A0%E7%9A%84%E9%BB%84%E9%87%91%E4%B9%8B%E5%9F%8E%E4%B9%8B%E5%A4%9C-2.html"/>
+    <id>https://chuishen.xyz/01/%E9%BB%84%E9%87%91%E6%97%B6%E4%BB%A3%EF%BC%9A%E5%A4%B1%E8%90%BD%E5%A4%B1%E7%9C%A0%E7%9A%84%E9%BB%84%E9%87%91%E4%B9%8B%E5%9F%8E%E4%B9%8B%E5%A4%9C-2.html</id>
     <published>2022-08-15T02:27:28.000Z</published>
     <updated>2022-08-26T14:18:51.550Z</updated>
     
@@ -394,16 +394,16 @@
     
     
     
-    <category term="写作" scheme="https://chuishen.cf/tags/%E5%86%99%E4%BD%9C/"/>
+    <category term="写作" scheme="https://chuishen.xyz/tags/%E5%86%99%E4%BD%9C/"/>
     
-    <category term="白银树之恋" scheme="https://chuishen.cf/tags/%E7%99%BD%E9%93%B6%E6%A0%91%E4%B9%8B%E6%81%8B/"/>
+    <category term="白银树之恋" scheme="https://chuishen.xyz/tags/%E7%99%BD%E9%93%B6%E6%A0%91%E4%B9%8B%E6%81%8B/"/>
     
   </entry>
   
   <entry>
     <title>黄金时代：失落失眠的黄金之城之夜[1]</title>
-    <link href="https://chuishen.cf/01/%E9%BB%84%E9%87%91%E6%97%B6%E4%BB%A3%EF%BC%9A%E5%A4%B1%E8%90%BD%E5%A4%B1%E7%9C%A0%E7%9A%84%E9%BB%84%E9%87%91%E4%B9%8B%E5%9F%8E%E4%B9%8B%E5%A4%9C-1.html"/>
-    <id>https://chuishen.cf/01/%E9%BB%84%E9%87%91%E6%97%B6%E4%BB%A3%EF%BC%9A%E5%A4%B1%E8%90%BD%E5%A4%B1%E7%9C%A0%E7%9A%84%E9%BB%84%E9%87%91%E4%B9%8B%E5%9F%8E%E4%B9%8B%E5%A4%9C-1.html</id>
+    <link href="https://chuishen.xyz/01/%E9%BB%84%E9%87%91%E6%97%B6%E4%BB%A3%EF%BC%9A%E5%A4%B1%E8%90%BD%E5%A4%B1%E7%9C%A0%E7%9A%84%E9%BB%84%E9%87%91%E4%B9%8B%E5%9F%8E%E4%B9%8B%E5%A4%9C-1.html"/>
+    <id>https://chuishen.xyz/01/%E9%BB%84%E9%87%91%E6%97%B6%E4%BB%A3%EF%BC%9A%E5%A4%B1%E8%90%BD%E5%A4%B1%E7%9C%A0%E7%9A%84%E9%BB%84%E9%87%91%E4%B9%8B%E5%9F%8E%E4%B9%8B%E5%A4%9C-1.html</id>
     <published>2022-08-15T02:27:26.000Z</published>
     <updated>2022-08-24T02:17:30.052Z</updated>
     
@@ -419,18 +419,18 @@
     
     
     
-    <category term="写作" scheme="https://chuishen.cf/tags/%E5%86%99%E4%BD%9C/"/>
+    <category term="写作" scheme="https://chuishen.xyz/tags/%E5%86%99%E4%BD%9C/"/>
     
-    <category term="白银树之恋" scheme="https://chuishen.cf/tags/%E7%99%BD%E9%93%B6%E6%A0%91%E4%B9%8B%E6%81%8B/"/>
+    <category term="白银树之恋" scheme="https://chuishen.xyz/tags/%E7%99%BD%E9%93%B6%E6%A0%91%E4%B9%8B%E6%81%8B/"/>
     
   </entry>
   
   <entry>
     <title>黄金时代：赤金之地</title>
-    <link href="https://chuishen.cf/01/%E9%BB%84%E9%87%91%E6%97%B6%E4%BB%A3%EF%BC%9A%E8%B5%A4%E9%87%91%E4%B9%8B%E5%9C%B0.html"/>
-    <id>https://chuishen.cf/01/%E9%BB%84%E9%87%91%E6%97%B6%E4%BB%A3%EF%BC%9A%E8%B5%A4%E9%87%91%E4%B9%8B%E5%9C%B0.html</id>
+    <link href="https://chuishen.xyz/01/%E9%BB%84%E9%87%91%E6%97%B6%E4%BB%A3%EF%BC%9A%E8%B5%A4%E9%87%91%E4%B9%8B%E5%9C%B0.html"/>
+    <id>https://chuishen.xyz/01/%E9%BB%84%E9%87%91%E6%97%B6%E4%BB%A3%EF%BC%9A%E8%B5%A4%E9%87%91%E4%B9%8B%E5%9C%B0.html</id>
     <published>2022-08-09T13:11:53.000Z</published>
-    <updated>2022-08-09T14:08:22.195Z</updated>
+    <updated>2023-05-28T03:10:33.061Z</updated>
     
     
       
@@ -446,16 +446,16 @@
     
     
     
-    <category term="写作" scheme="https://chuishen.cf/tags/%E5%86%99%E4%BD%9C/"/>
+    <category term="写作" scheme="https://chuishen.xyz/tags/%E5%86%99%E4%BD%9C/"/>
     
-    <category term="白银树之恋" scheme="https://chuishen.cf/tags/%E7%99%BD%E9%93%B6%E6%A0%91%E4%B9%8B%E6%81%8B/"/>
+    <category term="白银树之恋" scheme="https://chuishen.xyz/tags/%E7%99%BD%E9%93%B6%E6%A0%91%E4%B9%8B%E6%81%8B/"/>
     
   </entry>
   
   <entry>
     <title>塑料时代：轻盈者</title>
-    <link href="https://chuishen.cf/01/%E5%A1%91%E6%96%99%E6%97%B6%E4%BB%A3%EF%BC%9A%E8%BD%BB%E7%9B%88%E8%80%85.html"/>
-    <id>https://chuishen.cf/01/%E5%A1%91%E6%96%99%E6%97%B6%E4%BB%A3%EF%BC%9A%E8%BD%BB%E7%9B%88%E8%80%85.html</id>
+    <link href="https://chuishen.xyz/01/%E5%A1%91%E6%96%99%E6%97%B6%E4%BB%A3%EF%BC%9A%E8%BD%BB%E7%9B%88%E8%80%85.html"/>
+    <id>https://chuishen.xyz/01/%E5%A1%91%E6%96%99%E6%97%B6%E4%BB%A3%EF%BC%9A%E8%BD%BB%E7%9B%88%E8%80%85.html</id>
     <published>2022-08-07T02:15:55.000Z</published>
     <updated>2022-08-07T03:01:45.616Z</updated>
     
@@ -472,18 +472,18 @@
     
     
     
-    <category term="写作" scheme="https://chuishen.cf/tags/%E5%86%99%E4%BD%9C/"/>
+    <category term="写作" scheme="https://chuishen.xyz/tags/%E5%86%99%E4%BD%9C/"/>
     
-    <category term="白银树之恋" scheme="https://chuishen.cf/tags/%E7%99%BD%E9%93%B6%E6%A0%91%E4%B9%8B%E6%81%8B/"/>
+    <category term="白银树之恋" scheme="https://chuishen.xyz/tags/%E7%99%BD%E9%93%B6%E6%A0%91%E4%B9%8B%E6%81%8B/"/>
     
   </entry>
   
   <entry>
     <title>The Grimoire of Chuishen ~ 2022摄影集·渝川</title>
-    <link href="https://chuishen.cf/01/The-Grimoire-of-Chuishen-2022%E6%91%84%E5%BD%B1%E9%9B%86.html"/>
-    <id>https://chuishen.cf/01/The-Grimoire-of-Chuishen-2022%E6%91%84%E5%BD%B1%E9%9B%86.html</id>
+    <link href="https://chuishen.xyz/01/The-Grimoire-of-Chuishen-2022%E6%91%84%E5%BD%B1%E9%9B%86.html"/>
+    <id>https://chuishen.xyz/01/The-Grimoire-of-Chuishen-2022%E6%91%84%E5%BD%B1%E9%9B%86.html</id>
     <published>2022-08-01T02:31:38.000Z</published>
-    <updated>2022-08-01T11:32:37.954Z</updated>
+    <updated>2023-05-28T03:10:19.517Z</updated>
     
     
       
@@ -497,14 +497,14 @@
     
     
     
-    <category term="摄影" scheme="https://chuishen.cf/tags/%E6%91%84%E5%BD%B1/"/>
+    <category term="摄影" scheme="https://chuishen.xyz/tags/%E6%91%84%E5%BD%B1/"/>
     
   </entry>
   
   <entry>
     <title>我与土土</title>
-    <link href="https://chuishen.cf/01/%E6%88%91%E4%B8%8E%E5%9C%9F%E5%9C%9F.html"/>
-    <id>https://chuishen.cf/01/%E6%88%91%E4%B8%8E%E5%9C%9F%E5%9C%9F.html</id>
+    <link href="https://chuishen.xyz/01/%E6%88%91%E4%B8%8E%E5%9C%9F%E5%9C%9F.html"/>
+    <id>https://chuishen.xyz/01/%E6%88%91%E4%B8%8E%E5%9C%9F%E5%9C%9F.html</id>
     <published>2022-07-31T12:52:24.000Z</published>
     <updated>2022-07-31T14:11:41.095Z</updated>
     
@@ -521,11 +521,11 @@
     
     
     
-    <category term="文学" scheme="https://chuishen.cf/tags/%E6%96%87%E5%AD%A6/"/>
+    <category term="文学" scheme="https://chuishen.xyz/tags/%E6%96%87%E5%AD%A6/"/>
     
-    <category term="闲聊" scheme="https://chuishen.cf/tags/%E9%97%B2%E8%81%8A/"/>
+    <category term="闲聊" scheme="https://chuishen.xyz/tags/%E9%97%B2%E8%81%8A/"/>
     
-    <category term="特殊" scheme="https://chuishen.cf/tags/%E7%89%B9%E6%AE%8A/"/>
+    <category term="特殊" scheme="https://chuishen.xyz/tags/%E7%89%B9%E6%AE%8A/"/>
     
   </entry>
   
