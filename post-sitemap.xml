@@ -9,6 +9,14 @@
 
 
     <url>
+        <loc>https://chuishen.xyz/01/%E5%85%AC%E5%91%8A.html</loc>
+        <lastmod>2023-07-19T06:11:17.222Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://chuishen.xyz/01/LostChapterOne.html</loc>
         <lastmod>2023-07-17T14:53:39.390Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -193,14 +201,6 @@
     </url>
 
     <url>
-        <loc>https://chuishen.xyz/01/%E6%88%91%E4%B8%8E%E5%9C%9F%E5%9C%9F.html</loc>
-        <lastmod>2022-07-31T14:11:41.095Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>https://chuishen.xyz/01/%E8%B5%9D%E5%93%81%E9%9D%92%E9%93%9C%E5%99%A8%E7%9A%84%E6%8C%BD%E6%AD%8C-1.html</loc>
         <lastmod>2022-07-14T15:15:05.083Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -259,22 +259,6 @@
     <url>
         <loc>https://chuishen.xyz/01/%E9%A3%98%E4%B8%8A%E6%9C%88%E7%90%83%EF%BC%8C%E4%B8%8D%E6%AD%BB%E4%B9%8B%E7%83%9F.html</loc>
         <lastmod>2022-05-27T14:53:43.259Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://chuishen.xyz/01/%E8%B0%A8%E5%BF%86%E4%BD%95%E8%B4%BE%E8%B0%8A%E5%90%9B.html</loc>
-        <lastmod>2022-05-27T14:38:53.528Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://chuishen.xyz/01/TheReturn1.html</loc>
-        <lastmod>2022-05-20T13:00:08.619Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
