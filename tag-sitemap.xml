@@ -3,22 +3,36 @@
 
 
     <url>
-        <loc>https://chuishen.xyz/tags/%E7%99%BD%E9%93%B6%E6%A0%91%E4%B9%8B%E6%81%8B/</loc>
-        <lastmod>2023-09-29T07:17:33.965Z</lastmod>
+        <loc>https://chuishen.xyz/tags/%E6%B8%B8%E8%AE%B0/</loc>
+        <lastmod>2023-10-10T08:56:47.265Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://chuishen.xyz/tags/%E5%86%99%E4%BD%9C/</loc>
-        <lastmod>2023-09-29T07:17:33.965Z</lastmod>
+        <lastmod>2023-10-10T08:56:47.265Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://chuishen.xyz/tags/%E5%8D%81%E4%B8%89%E8%80%8C%E7%AB%8B/</loc>
+        <lastmod>2023-10-10T08:54:29.189Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://chuishen.xyz/tags/%E7%99%BD%E9%93%B6%E6%A0%91%E4%B9%8B%E6%81%8B/</loc>
+        <lastmod>2023-10-10T08:53:33.373Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://chuishen.xyz/tags/%E6%97%A5%E8%AE%B0%E5%85%AB%E9%9B%86/</loc>
-        <lastmod>2023-07-29T09:56:18.199Z</lastmod>
+        <lastmod>2023-10-10T08:52:27.405Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
@@ -33,13 +47,6 @@
     <url>
         <loc>https://chuishen.xyz/tags/%E5%85%AC%E5%91%8A/</loc>
         <lastmod>2023-07-19T06:11:17.222Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://chuishen.xyz/tags/%E6%B8%B8%E8%AE%B0/</loc>
-        <lastmod>2023-05-28T03:10:28.539Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
